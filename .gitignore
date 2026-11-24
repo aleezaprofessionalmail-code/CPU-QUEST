@@ -1,0 +1,26 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+
+# Generated Assembly files
+*.com
+*.obj
+*.lst
+assembly/build/*
+
+# Keep build folder visible in GitHub
+!assembly/build/.gitkeep
+
+# Databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Editor settings
+.vscode/
